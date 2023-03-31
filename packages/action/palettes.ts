@@ -11,7 +11,9 @@ export const basePalettes: Record<
     colorDotBorder: "#1b1f230a",
     colorDots: ["#ebedf0", "#9be9a8", "#40c463", "#30a14e", "#216e39"],
     colorEmpty: "#ebedf0",
-    colorSnake: "purple",
+    // colorEmpty: "#c5d3ff",
+    // colorSnake: "purple",
+    colorSnake: "orange",
   },
   "github-dark": {
     colorDotBorder: "#1b1f230a",
