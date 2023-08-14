@@ -1,5 +1,8 @@
 ---
-import Label from './component_label.astro';
+import MC from '../temlplates/lb_mac_n_cheese.astro';
+import ACM from '../temlplates/lb_camel_milk.astro';
+import DF from '../temlplates/lb_default.astro';
+import PB from '../temlplates/lb_pork_n_beans.astro';
 ---
 <html lang="en">
   <head>
@@ -11,10 +14,13 @@ import Label from './component_label.astro';
       rel="stylesheet" />
     <title>Nutrition Label</title>
   </head>
+	<style>
+    @import '../styles/styles.scss';
+  </style>
   <body>
-    <Label />
-    <Label />
-    <Label />
-    <Label />
+    <MC />
+    <PB />
+    <ACM />
+    <!-- <DF /> -->
   </body>
 </html>
