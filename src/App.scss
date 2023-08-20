@@ -1,0 +1,36 @@
+// body {
+//     background-color: black;
+//     color: white;
+
+//     display: grid;
+//     place-items: center;
+
+//     height: 88vh;
+// }
+
+body {
+    background-color: black;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 88vh;
+}
+
+@keyframes mmj-rainbow {
+    from {
+        filter: hue-rotate(0deg);
+    } to {
+        filter: hue-rotate(360deg);
+    } 
+}
+
+.mmj-header {
+    color: pink;
+    font-size: 200px;
+
+    animation: mmj-rainbow 2s;
+    animation-iteration-count: infinite; 
+}
