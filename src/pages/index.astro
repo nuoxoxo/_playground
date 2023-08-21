@@ -30,17 +30,15 @@ import './styles/styles.scss' // otherwise deployment w/o css
 
 
 		//	set paths
-		const catPath: string = 'https://catfact.ninja/fact'
 		const jokePath: string = 'https://official-joke-api.appspot.com/random_joke'
+		const catPath: string = 'https://catfact.ninja/fact'
 
 
 		//	read Api's
-		const catStuffFromAPI = FetchData( catPath )
 		const jokesFromAPI = FetchData( jokePath )
-		
-		
+		const catStuffFromAPI = FetchData( catPath )
 
-
+	
 		jokesFromAPI.then((stuff) => {
 
 			const cont = document.querySelector('.container')
