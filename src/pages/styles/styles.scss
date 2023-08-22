@@ -75,8 +75,11 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  span, button {
+  span {
     margin: 2% 1% 0 3%;
+  }
+  button {
+    margin: 2% 1% 2% 3%;
   }
   .older-fact-R {
     color: $COLOR-TEAL-DEER;
@@ -103,9 +106,7 @@ body {
   body {
     font-size: calc($TEXTSize * .75);
   }
-  // .btn {
-  //   font-size: 10px;
-  //   width: 42px;
-  //   padding: 2px;
-  // }
+  .btn {
+    width: 42px;
+  }
 }
