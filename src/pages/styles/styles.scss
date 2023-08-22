@@ -29,7 +29,7 @@ $ButtonOutline: 2px;
   color: $TEXTColor;
   font-family: $FONT;
   font-size: $TEXTSize;
-  white-space: pre-wrap;
+  white-space:pre-line;
   display: flex;
   flex-direction: column;
 }
