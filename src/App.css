@@ -23,6 +23,15 @@ button {
     margin: 5px
 }
 
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: hotpink;
+  text-decoration: none;
+}
+
 .switch {
   position: relative;
   display: inline-block;

@@ -22,6 +22,9 @@ function App() {
     const Colors = ["black", "white"]
     document.body.style.backgroundColor = Colors[index]
     document.body.style.color = Colors[(index + 1) % Colors.length]
+    // document.querySelectorAll('a').forEach(anchor => {
+    //   anchor.style.color = Colors[(index + 1) % Colors.length]
+    // })
   }
 
   useEffect(() => {
