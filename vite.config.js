@@ -8,9 +8,9 @@ export default defineConfig(({command}) => {
     base: '/',
   }
 
-  if (command !== 'serve') {
-    config.base = '/atomic'
-  }
+  // if (command !== 'serve') {
+  //   config.base = '/atomic'
+  // }
 
   return config
 })
