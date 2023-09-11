@@ -87,7 +87,7 @@ input:checked + .slider:before {
 
 
 @media only screen and (max-width: 768px) {
-  button {font-size: 10px}
+  button {font-size: 8px}
   
 }
 
