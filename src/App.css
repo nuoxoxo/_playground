@@ -11,16 +11,13 @@ h1 {
     /* color: black; */
 }
 
-.btn {
-    width: var(--btn-width)
-}
-
 label {
     margin: 5px
 }
 
 button {
-    margin: 5px
+    margin: 5px;
+    width: var(--btn-width)
 }
 
 a:link {
