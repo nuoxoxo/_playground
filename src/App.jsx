@@ -37,7 +37,7 @@ function App() {
     localStorage.setItem("count", count)
     localStorage.setItem("route", JSON.stringify(Route))
     localStorage.setItem("LabelIsChecked", JSON.stringify(LabelIsChecked))
-  }, [LabelIsChecked, count, Route, LabelIsChecked])
+  }, [count, Route, LabelIsChecked])
 
   return (
     <>
