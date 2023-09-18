@@ -4,6 +4,16 @@ let count = 0;
 const value = document.querySelector("#value");
 const btns = document.querySelectorAll(".btn");
 
+const flipper = document.querySelector("#flipper")
+
+let flip = false
+
+flipper.addEventListener('click', (e) => {
+  e.preventDefault()
+  document.body.style.backgroundColor = flip ? 'black' : 'white'
+  flip = !flip
+})
+
 btns.forEach(function (btn) {
   btn.addEventListener("click", function (e) {
     const styles = e.currentTarget.classList;
