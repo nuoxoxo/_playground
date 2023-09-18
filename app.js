@@ -6,7 +6,7 @@ const btns = document.querySelectorAll(".btn");
 
 const flipper = document.querySelector("#flipper")
 
-let flip = false
+let flip = true
 
 flipper.addEventListener('click', (e) => {
   e.preventDefault()
