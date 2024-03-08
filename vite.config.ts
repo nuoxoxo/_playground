@@ -16,7 +16,7 @@ export default defineConfig(({ command }) => {
   }
 
   if (command !== 'serve') {
-    config.base = '/snk/'
+    config.base = '/_playground/'
   }
 
   return config
